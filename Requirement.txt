@@ -1,0 +1,6 @@
+Tools Required
+● Python 3.x
+● Flask
+● Git
+● GitHub account
+● Code editor (VS Code recommended)
