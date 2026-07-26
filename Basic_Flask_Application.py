@@ -6,3 +6,11 @@
 # Ensure: The application runs successfully on localhost , 
 # All endpoints return the correct response and are accessible via browser or Postman
 # #####################################################################################################################################################
+
+from flask import Flask # Import the Flask Binaries
+app = Flask(__name__)
+@app.route("/") # Base Page
+def home():
+    return "Welcome to Flask Application!" 
+if __name__ == "__main__":
+    app.run(debug=True)
